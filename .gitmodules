@@ -1,0 +1,4 @@
+[submodule "original"]
+	path = original
+	url = git://github.com/visionmedia/mocha.git
+	branch = gh-pages
