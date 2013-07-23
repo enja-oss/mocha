@@ -1,0 +1,31 @@
+<h2 id="features">Features</h2>
+
+  - browser support
+  - simple async support
+  - test coverage reporting
+  - string diff support
+  - javascript API for running tests
+  - proper exit status for CI support etc
+  - auto-detects and disables coloring for non-ttys
+  - maps uncaught exceptions to the correct test case
+  - async test timeout support
+  - test-specific timeouts
+  - growl notification support
+  - reports test durations
+  - highlights slow tests
+  - file watcher support
+  - global variable leak detection
+  - optionally run tests that match a regexp
+  - auto-exit to prevent "hanging" with an active loop
+  - easily meta-generate suites & test-cases
+  - mocha.opts file support
+  - clickable suite titles to filter test execution
+  - node debugger support
+  - detects multiple calls to `done()`
+  - use any assertion library you want
+  - extensible reporting, bundled with 9+ reporters
+  - extensible test DSLs or "interfaces"
+  - before, after, before each, after each hooks
+  - arbitrary transpiler support (coffee-script etc)
+  - TextMate bundle
+  - and more!
