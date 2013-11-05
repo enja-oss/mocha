@@ -1,6 +1,6 @@
 <h2 id="assertions">Assertions</h2>
 
-Mocha allows you to use any assertion library you want, if it throws an error, it will work! This means you can utilize libraries such as [should.js](http://github.com/visionmedia/should.js), node's regular `assert` module, or others. The following is a list of known assertion libraries for node and/or the browser:
+ Mocha allows you to use any assertion library you want, if it throws an error, it will work! This means you can utilize libraries such as [should.js](http://github.com/visionmedia/should.js), node's regular `assert` module, or others. The following is a list of known assertion libraries for node and/or the browser:
 
   - [should.js](http://github.com/visionmedia/should.js) BDD style shown throughout these docs
   - [expect.js](https://github.com/LearnBoost/expect.js) expect() style assertions
@@ -9,7 +9,7 @@ Mocha allows you to use any assertion library you want, if it throws an error, i
 
 <h2 id="assertions">アサーション</h2>
 
-Mochaではアサーションライブラリに好きなものを使うことが可能で、どんなエラーを投げるライブラリでも実行されます。つまり、[should.js](http://github.com/visionmedia/should.js)やnode標準の`assert`モジュール等も活用することが可能です。以下は、nodeとブラウザの両方、あるいはいずれかで使用可能なアサーションライブラリのリストです。:
+ Mochaではアサーションライブラリに好きなものを使うことが可能で、どんなエラーを投げるライブラリでも実行されます。つまり、[should.js](http://github.com/visionmedia/should.js)やnode標準の`assert`モジュール等も活用することが可能です。以下は、nodeとブラウザの両方、あるいはいずれかで使用可能なアサーションライブラリのリストです。:
 
   - [should.js](http://github.com/visionmedia/should.js) このドキュメントを通して紹介するBDD形式のアサーションライブラリ
   - [expect.js](https://github.com/LearnBoost/expect.js) `expect()`形式のアサーションライブラリ
