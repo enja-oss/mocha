@@ -1,6 +1,5 @@
 <h2 id="getting-started">1. 2. 3. Mocha!</h2>
 
-
     $ npm install -g mocha
     $ mkdir test
     $ $EDITOR test/test.js
