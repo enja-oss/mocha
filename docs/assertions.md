@@ -9,7 +9,7 @@
 
 <h2 id="assertions">アサーション</h2>
 
- Mochaではアサーションに好きなライブラリを選ぶことが可能で、どんなエラーを投げるライブラリでも実行されます。つまり、[should.js](http://github.com/visionmedia/should.js)やnode標準の`assert`モジュール等も活用することが可能です。以下は、nodeとブラウザの両方、あるいはいずれかで使用可能なアサーションライブラリです。:
+ Mochaでは好みのアサーションライブラリを使うことが可能で、どんなエラーを投げるライブラリでも実行されます。つまり、[should.js](http://github.com/visionmedia/should.js)やnode標準の`assert`モジュール等も活用することが可能です。以下は、nodeとブラウザの両方、あるいはいずれかで使用可能なアサーションライブラリです。:
 
   - [should.js](http://github.com/visionmedia/should.js) このドキュメントを通して紹介するBDD形式のアサーションライブラリ
   - [expect.js](https://github.com/LearnBoost/expect.js) `expect()`形式のアサーションライブラリ
