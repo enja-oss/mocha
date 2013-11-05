@@ -20,7 +20,7 @@ Testing asynchronous code with Mocha could not be simpler! Simply invoke the cal
 
  To make things even easier, the `done()` callback accepts an error, so we may use this directly:
 
- 更に完結に記述するために、`done()`コールバックは例外を引数にとることができるので、直接利用するのも良いでしょう。:
+ 更に簡潔に記述するためには、`done()`コールバックは例外を引数にとることができるので、これを直接利用するのも良いでしょう。:
 
     describe('User', function(){
       describe('#save()', function(){
@@ -33,7 +33,7 @@ Testing asynchronous code with Mocha could not be simpler! Simply invoke the cal
 
   All "hooks", that is `before()`, `after()`, `beforeEach()`, `afterEach()` may be sync or async as well, behaving much like a regular test-case. For example you may wish to populate database with dummy content before each test:
 
-  テストのフック関数である`before()`、`after()`、`beforeEach()`、`afterEach()`は、同期・非同期の両方で定期的なテストケースとして実行されます。これはテスト毎にデータベースにダミーコンテンツを入れたい場合のサンプルです。:
+  フック関数である`before()`、`after()`、`beforeEach()`、`afterEach()`は、同期・非同期の両方で定期的なテストケースのように実行されます。これはテスト毎にデータベースにダミーコンテンツを入れたい場合のサンプルです。:
 
     describe('Connection', function(){
       var db = new Connection
